@@ -1,0 +1,6 @@
+framework module Pods_Chatzilla_IOSUITests {
+  umbrella header "Pods-Chatzilla-IOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
