@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>743641807172-69rp32h94k24oeulqh1cdhoogaroaejd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.743641807172-69rp32h94k24oeulqh1cdhoogaroaejd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCRt3k26YAdn3H_QOxD70zUJhfP9mDC0Vo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>743641807172</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>leoprok.me.Chatzilla-IOS</string>
+	<key>PROJECT_ID</key>
+	<string>chatzilla-ad20b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatzilla-ad20b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:743641807172:ios:962e7c1f04ca6206</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatzilla-ad20b.firebaseio.com</string>
+</dict>
+</plist>
