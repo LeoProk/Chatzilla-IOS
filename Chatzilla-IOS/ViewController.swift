@@ -8,10 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: MessagesViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        messagesCollectionView.messagesDataSource = self
+        messagesCollectionView.messagesLayoutDelegate = self
+        messagesCollectionView.messagesDisplayDelegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 
