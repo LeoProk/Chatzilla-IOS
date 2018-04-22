@@ -7,15 +7,18 @@
 //
 
 import UIKit
+import MessageKit
+import Firebase
 
 class ViewController: MessagesViewController {
 
+    var messages : [MessageType] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        messagesCollectionView.messagesDataSource = self
-        messagesCollectionView.messagesLayoutDelegate = self
-        messagesCollectionView.messagesDisplayDelegate = self
-        // Do any additional setup after loading the view, typically from a nib.
+        messagesCollectionView.messagesDataSource = self as? MessagesDataSource
+        messagesCollectionView.messagesLayoutDelegate = self as? MessagesLayoutDelegate
+        messagesCollectionView.messagesDisplayDelegate = self as? MessagesDisplayDelegate
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +26,19 @@ class ViewController: MessagesViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    
 }
-
+extension ViewController: MessagesDataSource {
+    
+    func currentSender() -> Sender {
+        return Sender(id: "any_unique_id", displayName: "Steven")
+    }
+    
+    func numberOfMessages(in messagesCollectionView: MessagesCollectionView) -> Int {
+        return messages.count
+    }
+    
+    func messageForItem(at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView) -> MessageType {
+        return messages[indexPath.section]
+    }
+}
