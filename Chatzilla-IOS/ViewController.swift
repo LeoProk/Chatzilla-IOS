@@ -1,9 +1,6 @@
 //
-//  ViewController.swift
-//  Chatzilla-IOS
-//
-//  Created by user on 4/15/18.
-//  Copyright © 2018 user. All rights reserved.
+//this viewcontroller use messagekit's MessageViewController to dissplay bubble messages
+//that taken from firebase
 //
 
 import UIKit
@@ -12,10 +9,12 @@ import Firebase
 
 class ViewController: MessagesViewController {
 
+    //array of empty messages
     var messages : [MessageType] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //assign the messagekit
         messagesCollectionView.messagesDataSource = self as? MessagesDataSource
         messagesCollectionView.messagesLayoutDelegate = self as? MessagesLayoutDelegate
         messagesCollectionView.messagesDisplayDelegate = self as? MessagesDisplayDelegate

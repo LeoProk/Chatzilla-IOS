@@ -1,9 +1,5 @@
 //
-//  ChatMessage.swift
-//  Chatzilla-IOS
-//
-//  Created by user on 4/22/18.
-//  Copyright © 2018 user. All rights reserved.
+//module used by firebase to get the message with use name and id
 //
 
 import Foundation
