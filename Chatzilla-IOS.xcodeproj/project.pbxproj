@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D3042AB29DDDC25F77ED21D /* Pods_Chatzilla_IOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DBFDD26FB3C5ABBC1592D3 /* Pods_Chatzilla_IOSUITests.framework */; };
 		AB5B926E6CBF52F74904259D /* Pods_Chatzilla_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF469C118FE18174C6CD5576 /* Pods_Chatzilla_IOS.framework */; };
+		CE417C072091520C00294C27 /* MockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE417C062091520C00294C27 /* MockMessage.swift */; };
 		CE6F205A2083E8E1005C3ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F20592083E8E1005C3ADA /* AppDelegate.swift */; };
 		CE6F205C2083E8E1005C3ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F205B2083E8E1005C3ADA /* ViewController.swift */; };
 		CE6F205F2083E8E1005C3ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6F205D2083E8E1005C3ADA /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		A4DBFDD26FB3C5ABBC1592D3 /* Pods_Chatzilla_IOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatzilla_IOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF469C118FE18174C6CD5576 /* Pods_Chatzilla_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatzilla_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD6316132D71053C6DAF13E /* Pods-Chatzilla-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOS/Pods-Chatzilla-IOS.release.xcconfig"; sourceTree = "<group>"; };
+		CE417C062091520C00294C27 /* MockMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMessage.swift; sourceTree = "<group>"; };
 		CE6F20562083E8E1005C3ADA /* Chatzilla-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chatzilla-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6F20592083E8E1005C3ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6F205B2083E8E1005C3ADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				CE6F20622083E8E4005C3ADA /* LaunchScreen.storyboard */,
 				CE6F20652083E8E4005C3ADA /* Info.plist */,
 				CE6F2093208CF95E005C3ADA /* ChatMessage.swift */,
+				CE417C062091520C00294C27 /* MockMessage.swift */,
 			);
 			path = "Chatzilla-IOS";
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6F205C2083E8E1005C3ADA /* ViewController.swift in Sources */,
+				CE417C072091520C00294C27 /* MockMessage.swift in Sources */,
 				CE6F2094208CF95E005C3ADA /* ChatMessage.swift in Sources */,
 				CE6F205A2083E8E1005C3ADA /* AppDelegate.swift in Sources */,
 				CE6F208C2086E583005C3ADA /* Constants.swift in Sources */,

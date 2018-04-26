@@ -12,11 +12,14 @@ class ChatMessage {
     var userId : String
     //message that the user send
     var message : String
+    //date of the message
+    var date:Double
     
     init(dataSnap : DataSnapshot) {
         let userDict = dataSnap.value as! [String:Any]
         userName = userDict["user"] as! String
         userId = userDict["title"] as! String
         message = userDict["title"] as! String
+        date = userDict["date"] as! Double
     }
 }
