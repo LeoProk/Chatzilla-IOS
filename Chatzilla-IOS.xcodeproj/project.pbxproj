@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D3042AB29DDDC25F77ED21D /* Pods_Chatzilla_IOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DBFDD26FB3C5ABBC1592D3 /* Pods_Chatzilla_IOSUITests.framework */; };
-		AB5B926E6CBF52F74904259D /* Pods_Chatzilla_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF469C118FE18174C6CD5576 /* Pods_Chatzilla_IOS.framework */; };
+		AB5B926E6CBF52F74904259D /* Pods_Chatzilla_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF469C118FE18174C6CD5576 /* Pods_Chatzilla_IOS.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		CE417C072091520C00294C27 /* MockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE417C062091520C00294C27 /* MockMessage.swift */; };
 		CE6F205A2083E8E1005C3ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F20592083E8E1005C3ADA /* AppDelegate.swift */; };
 		CE6F205C2083E8E1005C3ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F205B2083E8E1005C3ADA /* ViewController.swift */; };
@@ -19,6 +19,7 @@
 		CE6F208C2086E583005C3ADA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F208B2086E583005C3ADA /* Constants.swift */; };
 		CE6F20902089862F005C3ADA /* Chatzilla-IOS in Resources */ = {isa = PBXBuildFile; fileRef = CE6F208F2089862E005C3ADA /* Chatzilla-IOS */; };
 		CE6F2094208CF95E005C3ADA /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F2093208CF95E005C3ADA /* ChatMessage.swift */; };
+		CEDDD59720990BF50033D34D /* NewUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDD59620990BF50033D34D /* NewUser.swift */; };
 		DBEBB98FEB4443DF1DA0D3AB /* Pods_Chatzilla_IOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33598A5923C27667A7CEC0C1 /* Pods_Chatzilla_IOSTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		CE6F208B2086E583005C3ADA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CE6F208F2089862E005C3ADA /* Chatzilla-IOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Chatzilla-IOS"; sourceTree = "<group>"; };
 		CE6F2093208CF95E005C3ADA /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		CEDDD59620990BF50033D34D /* NewUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser.swift; sourceTree = "<group>"; };
 		D1F21E2817CB2517BF9783F6 /* Pods-Chatzilla-IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOSTests/Pods-Chatzilla-IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 				CE6F20652083E8E4005C3ADA /* Info.plist */,
 				CE6F2093208CF95E005C3ADA /* ChatMessage.swift */,
 				CE417C062091520C00294C27 /* MockMessage.swift */,
+				CEDDD59620990BF50033D34D /* NewUser.swift */,
 			);
 			path = "Chatzilla-IOS";
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6F205C2083E8E1005C3ADA /* ViewController.swift in Sources */,
+				CEDDD59720990BF50033D34D /* NewUser.swift in Sources */,
 				CE417C072091520C00294C27 /* MockMessage.swift in Sources */,
 				CE6F2094208CF95E005C3ADA /* ChatMessage.swift in Sources */,
 				CE6F205A2083E8E1005C3ADA /* AppDelegate.swift in Sources */,
