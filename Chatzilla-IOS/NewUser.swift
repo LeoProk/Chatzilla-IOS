@@ -1,9 +1,7 @@
 //
-//  NewUser.swift
-//  Chatzilla-IOS
-//
-//  Created by user on 5/1/18.
-//  Copyright © 2018 user. All rights reserved.
+//this class craete new user from labels with user phone number
+// as id and nickname of user chosing the input create new user
+// in firebase
 //
 
 import Foundation

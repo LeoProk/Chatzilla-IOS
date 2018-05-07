@@ -1,9 +1,5 @@
 //
-//  MockMessage.swift
-//  Chatzilla-IOS
-//
-//  Created by user on 4/26/18.
-//  Copyright © 2018 user. All rights reserved.
+//model used by messagekit ro create new messages
 //
 
 import Foundation
