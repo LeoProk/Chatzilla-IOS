@@ -5,7 +5,7 @@
 import Foundation
 import Firebase
 
-class ChatMessage {
+struct ChatMessage {
     //name of the user that send the message
     var userName : String
     //id of the user that send the message
