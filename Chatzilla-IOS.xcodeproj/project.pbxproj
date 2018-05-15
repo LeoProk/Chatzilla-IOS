@@ -7,190 +7,176 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3042AB29DDDC25F77ED21D /* Pods_Chatzilla_IOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DBFDD26FB3C5ABBC1592D3 /* Pods_Chatzilla_IOSUITests.framework */; };
-		AB5B926E6CBF52F74904259D /* Pods_Chatzilla_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF469C118FE18174C6CD5576 /* Pods_Chatzilla_IOS.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		CE417C072091520C00294C27 /* MockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE417C062091520C00294C27 /* MockMessage.swift */; };
-		CE6F205A2083E8E1005C3ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F20592083E8E1005C3ADA /* AppDelegate.swift */; };
-		CE6F205C2083E8E1005C3ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F205B2083E8E1005C3ADA /* ViewController.swift */; };
-		CE6F205F2083E8E1005C3ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6F205D2083E8E1005C3ADA /* Main.storyboard */; };
-		CE6F20642083E8E4005C3ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6F20622083E8E4005C3ADA /* LaunchScreen.storyboard */; };
-		CE6F206F2083E8E5005C3ADA /* Chatzilla_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F206E2083E8E5005C3ADA /* Chatzilla_IOSTests.swift */; };
-		CE6F207A2083E8E5005C3ADA /* Chatzilla_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F20792083E8E5005C3ADA /* Chatzilla_IOSUITests.swift */; };
-		CE6F208C2086E583005C3ADA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F208B2086E583005C3ADA /* Constants.swift */; };
-		CE6F20902089862F005C3ADA /* Chatzilla-IOS in Resources */ = {isa = PBXBuildFile; fileRef = CE6F208F2089862E005C3ADA /* Chatzilla-IOS */; };
-		CE6F2094208CF95E005C3ADA /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F2093208CF95E005C3ADA /* ChatMessage.swift */; };
-		CEDDD59720990BF50033D34D /* NewUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDD59620990BF50033D34D /* NewUser.swift */; };
-		DBEBB98FEB4443DF1DA0D3AB /* Pods_Chatzilla_IOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33598A5923C27667A7CEC0C1 /* Pods_Chatzilla_IOSTests.framework */; };
+		538041EBB9E4B8DE1E1D042C /* Pods_Chatzilla_IOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A6E9A460AC16AC1A534D54 /* Pods_Chatzilla_IOSTests.framework */; };
+		69ED2202C0476EDE006AB81A /* Pods_Chatzilla_IOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1EEC1ECFF580DF014E8DDFD /* Pods_Chatzilla_IOSUITests.framework */; };
+		CE057D0720AA58AA00373CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057D0620AA58AA00373CB2 /* AppDelegate.swift */; };
+		CE057D0920AA58AA00373CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057D0820AA58AA00373CB2 /* ViewController.swift */; };
+		CE057D0C20AA58AA00373CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE057D0A20AA58AA00373CB2 /* Main.storyboard */; };
+		CE057D0E20AA58C700373CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE057D0D20AA58C700373CB2 /* Assets.xcassets */; };
+		CE057D1120AA58C700373CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE057D0F20AA58C700373CB2 /* LaunchScreen.storyboard */; };
+		CE057D1C20AA58C800373CB2 /* Chatzilla_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057D1B20AA58C800373CB2 /* Chatzilla_IOSTests.swift */; };
+		CE057D2720AA58C800373CB2 /* Chatzilla_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057D2620AA58C800373CB2 /* Chatzilla_IOSUITests.swift */; };
+		D2715A69BF81563B1C5227A0 /* Pods_Chatzilla_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80491A2028BF2978B6A25401 /* Pods_Chatzilla_IOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE6F206B2083E8E5005C3ADA /* PBXContainerItemProxy */ = {
+		CE057D1820AA58C800373CB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE6F204E2083E8E1005C3ADA /* Project object */;
+			containerPortal = CE057CFB20AA58A900373CB2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE6F20552083E8E1005C3ADA;
+			remoteGlobalIDString = CE057D0220AA58AA00373CB2;
 			remoteInfo = "Chatzilla-IOS";
 		};
-		CE6F20762083E8E5005C3ADA /* PBXContainerItemProxy */ = {
+		CE057D2320AA58C800373CB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE6F204E2083E8E1005C3ADA /* Project object */;
+			containerPortal = CE057CFB20AA58A900373CB2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE6F20552083E8E1005C3ADA;
+			remoteGlobalIDString = CE057D0220AA58AA00373CB2;
 			remoteInfo = "Chatzilla-IOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B221592378B92459AE5751 /* Pods-Chatzilla-IOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOSUITests/Pods-Chatzilla-IOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2AED537AFCD2281D2C6D5C72 /* Pods-Chatzilla-IOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOSTests/Pods-Chatzilla-IOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		33598A5923C27667A7CEC0C1 /* Pods_Chatzilla_IOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatzilla_IOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A3CD12C742E79210CAA27BF /* Pods-Chatzilla-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOS/Pods-Chatzilla-IOS.debug.xcconfig"; sourceTree = "<group>"; };
-		888B460E9221CB48E42C6C36 /* Pods-Chatzilla-IOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOSUITests/Pods-Chatzilla-IOSUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A4DBFDD26FB3C5ABBC1592D3 /* Pods_Chatzilla_IOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatzilla_IOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF469C118FE18174C6CD5576 /* Pods_Chatzilla_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatzilla_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBD6316132D71053C6DAF13E /* Pods-Chatzilla-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOS/Pods-Chatzilla-IOS.release.xcconfig"; sourceTree = "<group>"; };
-		CE417C062091520C00294C27 /* MockMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMessage.swift; sourceTree = "<group>"; };
-		CE6F20562083E8E1005C3ADA /* Chatzilla-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chatzilla-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6F20592083E8E1005C3ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE6F205B2083E8E1005C3ADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE6F205E2083E8E1005C3ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE6F20602083E8E4005C3ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE6F20632083E8E4005C3ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CE6F20652083E8E4005C3ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE6F206A2083E8E5005C3ADA /* Chatzilla-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chatzilla-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6F206E2083E8E5005C3ADA /* Chatzilla_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatzilla_IOSTests.swift; sourceTree = "<group>"; };
-		CE6F20702083E8E5005C3ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE6F20752083E8E5005C3ADA /* Chatzilla-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chatzilla-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6F20792083E8E5005C3ADA /* Chatzilla_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatzilla_IOSUITests.swift; sourceTree = "<group>"; };
-		CE6F207B2083E8E5005C3ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE6F208B2086E583005C3ADA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		CE6F208F2089862E005C3ADA /* Chatzilla-IOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Chatzilla-IOS"; sourceTree = "<group>"; };
-		CE6F2093208CF95E005C3ADA /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
-		CEDDD59620990BF50033D34D /* NewUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser.swift; sourceTree = "<group>"; };
-		D1F21E2817CB2517BF9783F6 /* Pods-Chatzilla-IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOSTests/Pods-Chatzilla-IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		08A6E9A460AC16AC1A534D54 /* Pods_Chatzilla_IOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatzilla_IOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C7DE17184AA3EB159A216C /* Pods-Chatzilla-IOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOSUITests/Pods-Chatzilla-IOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BB44B773064AE9B33363E59 /* Pods-Chatzilla-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOS/Pods-Chatzilla-IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6AD0C4C7F9D2C41E77A6023D /* Pods-Chatzilla-IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOSTests/Pods-Chatzilla-IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80491A2028BF2978B6A25401 /* Pods_Chatzilla_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatzilla_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FB14BB3C6887B0857D8ADF /* Pods-Chatzilla-IOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOSUITests/Pods-Chatzilla-IOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9740EA46ECE27E064FEDAB7D /* Pods-Chatzilla-IOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOSTests/Pods-Chatzilla-IOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE057D0320AA58AA00373CB2 /* Chatzilla-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chatzilla-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE057D0620AA58AA00373CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE057D0820AA58AA00373CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE057D0B20AA58AA00373CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE057D0D20AA58C700373CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE057D1020AA58C700373CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE057D1220AA58C700373CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE057D1720AA58C800373CB2 /* Chatzilla-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chatzilla-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE057D1B20AA58C800373CB2 /* Chatzilla_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatzilla_IOSTests.swift; sourceTree = "<group>"; };
+		CE057D1D20AA58C800373CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE057D2220AA58C800373CB2 /* Chatzilla-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chatzilla-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE057D2620AA58C800373CB2 /* Chatzilla_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatzilla_IOSUITests.swift; sourceTree = "<group>"; };
+		CE057D2820AA58C800373CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EEC1ECFF580DF014E8DDFD /* Pods_Chatzilla_IOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatzilla_IOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F855D403F2701B385363E1CA /* Pods-Chatzilla-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOS/Pods-Chatzilla-IOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE6F20532083E8E1005C3ADA /* Frameworks */ = {
+		CE057D0020AA58AA00373CB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5B926E6CBF52F74904259D /* Pods_Chatzilla_IOS.framework in Frameworks */,
+				D2715A69BF81563B1C5227A0 /* Pods_Chatzilla_IOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE6F20672083E8E5005C3ADA /* Frameworks */ = {
+		CE057D1420AA58C800373CB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBEBB98FEB4443DF1DA0D3AB /* Pods_Chatzilla_IOSTests.framework in Frameworks */,
+				538041EBB9E4B8DE1E1D042C /* Pods_Chatzilla_IOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE6F20722083E8E5005C3ADA /* Frameworks */ = {
+		CE057D1F20AA58C800373CB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D3042AB29DDDC25F77ED21D /* Pods_Chatzilla_IOSUITests.framework in Frameworks */,
+				69ED2202C0476EDE006AB81A /* Pods_Chatzilla_IOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		941D291BD149145B76CDF1B4 /* Frameworks */ = {
+		CE057CFA20AA58A900373CB2 = {
 			isa = PBXGroup;
 			children = (
-				AF469C118FE18174C6CD5576 /* Pods_Chatzilla_IOS.framework */,
-				33598A5923C27667A7CEC0C1 /* Pods_Chatzilla_IOSTests.framework */,
-				A4DBFDD26FB3C5ABBC1592D3 /* Pods_Chatzilla_IOSUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B1E6BE09C1002602A16D5BDA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7A3CD12C742E79210CAA27BF /* Pods-Chatzilla-IOS.debug.xcconfig */,
-				CBD6316132D71053C6DAF13E /* Pods-Chatzilla-IOS.release.xcconfig */,
-				D1F21E2817CB2517BF9783F6 /* Pods-Chatzilla-IOSTests.debug.xcconfig */,
-				2AED537AFCD2281D2C6D5C72 /* Pods-Chatzilla-IOSTests.release.xcconfig */,
-				00B221592378B92459AE5751 /* Pods-Chatzilla-IOSUITests.debug.xcconfig */,
-				888B460E9221CB48E42C6C36 /* Pods-Chatzilla-IOSUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		CE6F204D2083E8E1005C3ADA = {
-			isa = PBXGroup;
-			children = (
-				CE6F20582083E8E1005C3ADA /* Chatzilla-IOS */,
-				CE6F208F2089862E005C3ADA /* Chatzilla-IOS */,
-				CE6F206D2083E8E5005C3ADA /* Chatzilla-IOSTests */,
-				CE6F20782083E8E5005C3ADA /* Chatzilla-IOSUITests */,
-				CE6F20572083E8E1005C3ADA /* Products */,
-				B1E6BE09C1002602A16D5BDA /* Pods */,
-				941D291BD149145B76CDF1B4 /* Frameworks */,
+				CE057D0520AA58AA00373CB2 /* Chatzilla-IOS */,
+				CE057D1A20AA58C800373CB2 /* Chatzilla-IOSTests */,
+				CE057D2520AA58C800373CB2 /* Chatzilla-IOSUITests */,
+				CE057D0420AA58AA00373CB2 /* Products */,
+				EF2735C8840D361A914C588F /* Pods */,
+				D6B842E6405485539E0DCD33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		CE6F20572083E8E1005C3ADA /* Products */ = {
+		CE057D0420AA58AA00373CB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE6F20562083E8E1005C3ADA /* Chatzilla-IOS.app */,
-				CE6F206A2083E8E5005C3ADA /* Chatzilla-IOSTests.xctest */,
-				CE6F20752083E8E5005C3ADA /* Chatzilla-IOSUITests.xctest */,
+				CE057D0320AA58AA00373CB2 /* Chatzilla-IOS.app */,
+				CE057D1720AA58C800373CB2 /* Chatzilla-IOSTests.xctest */,
+				CE057D2220AA58C800373CB2 /* Chatzilla-IOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE6F20582083E8E1005C3ADA /* Chatzilla-IOS */ = {
+		CE057D0520AA58AA00373CB2 /* Chatzilla-IOS */ = {
 			isa = PBXGroup;
 			children = (
-				CE6F20592083E8E1005C3ADA /* AppDelegate.swift */,
-				CE6F205B2083E8E1005C3ADA /* ViewController.swift */,
-				CE6F205D2083E8E1005C3ADA /* Main.storyboard */,
-				CE6F20602083E8E4005C3ADA /* Assets.xcassets */,
-				CE6F208B2086E583005C3ADA /* Constants.swift */,
-				CE6F20622083E8E4005C3ADA /* LaunchScreen.storyboard */,
-				CE6F20652083E8E4005C3ADA /* Info.plist */,
-				CE6F2093208CF95E005C3ADA /* ChatMessage.swift */,
-				CE417C062091520C00294C27 /* MockMessage.swift */,
-				CEDDD59620990BF50033D34D /* NewUser.swift */,
+				CE057D0620AA58AA00373CB2 /* AppDelegate.swift */,
+				CE057D0820AA58AA00373CB2 /* ViewController.swift */,
+				CE057D0A20AA58AA00373CB2 /* Main.storyboard */,
+				CE057D0D20AA58C700373CB2 /* Assets.xcassets */,
+				CE057D0F20AA58C700373CB2 /* LaunchScreen.storyboard */,
+				CE057D1220AA58C700373CB2 /* Info.plist */,
 			);
 			path = "Chatzilla-IOS";
 			sourceTree = "<group>";
 		};
-		CE6F206D2083E8E5005C3ADA /* Chatzilla-IOSTests */ = {
+		CE057D1A20AA58C800373CB2 /* Chatzilla-IOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE6F206E2083E8E5005C3ADA /* Chatzilla_IOSTests.swift */,
-				CE6F20702083E8E5005C3ADA /* Info.plist */,
+				CE057D1B20AA58C800373CB2 /* Chatzilla_IOSTests.swift */,
+				CE057D1D20AA58C800373CB2 /* Info.plist */,
 			);
 			path = "Chatzilla-IOSTests";
 			sourceTree = "<group>";
 		};
-		CE6F20782083E8E5005C3ADA /* Chatzilla-IOSUITests */ = {
+		CE057D2520AA58C800373CB2 /* Chatzilla-IOSUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CE6F20792083E8E5005C3ADA /* Chatzilla_IOSUITests.swift */,
-				CE6F207B2083E8E5005C3ADA /* Info.plist */,
+				CE057D2620AA58C800373CB2 /* Chatzilla_IOSUITests.swift */,
+				CE057D2820AA58C800373CB2 /* Info.plist */,
 			);
 			path = "Chatzilla-IOSUITests";
+			sourceTree = "<group>";
+		};
+		D6B842E6405485539E0DCD33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80491A2028BF2978B6A25401 /* Pods_Chatzilla_IOS.framework */,
+				08A6E9A460AC16AC1A534D54 /* Pods_Chatzilla_IOSTests.framework */,
+				F1EEC1ECFF580DF014E8DDFD /* Pods_Chatzilla_IOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF2735C8840D361A914C588F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BB44B773064AE9B33363E59 /* Pods-Chatzilla-IOS.debug.xcconfig */,
+				F855D403F2701B385363E1CA /* Pods-Chatzilla-IOS.release.xcconfig */,
+				6AD0C4C7F9D2C41E77A6023D /* Pods-Chatzilla-IOSTests.debug.xcconfig */,
+				9740EA46ECE27E064FEDAB7D /* Pods-Chatzilla-IOSTests.release.xcconfig */,
+				14C7DE17184AA3EB159A216C /* Pods-Chatzilla-IOSUITests.debug.xcconfig */,
+				82FB14BB3C6887B0857D8ADF /* Pods-Chatzilla-IOSUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE6F20552083E8E1005C3ADA /* Chatzilla-IOS */ = {
+		CE057D0220AA58AA00373CB2 /* Chatzilla-IOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE6F207E2083E8E5005C3ADA /* Build configuration list for PBXNativeTarget "Chatzilla-IOS" */;
+			buildConfigurationList = CE057D2B20AA58C800373CB2 /* Build configuration list for PBXNativeTarget "Chatzilla-IOS" */;
 			buildPhases = (
-				580DF97B87C465A5CBCB4050 /* [CP] Check Pods Manifest.lock */,
-				CE6F20522083E8E1005C3ADA /* Sources */,
-				CE6F20532083E8E1005C3ADA /* Frameworks */,
-				CE6F20542083E8E1005C3ADA /* Resources */,
-				3783668C0883E5F3BF9EA41E /* [CP] Embed Pods Frameworks */,
+				DEAB61344C28F0D58A6FBF39 /* [CP] Check Pods Manifest.lock */,
+				CE057CFF20AA58AA00373CB2 /* Sources */,
+				CE057D0020AA58AA00373CB2 /* Frameworks */,
+				CE057D0120AA58AA00373CB2 /* Resources */,
+				2A98EF653C5776046541AEB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,71 +184,71 @@
 			);
 			name = "Chatzilla-IOS";
 			productName = "Chatzilla-IOS";
-			productReference = CE6F20562083E8E1005C3ADA /* Chatzilla-IOS.app */;
+			productReference = CE057D0320AA58AA00373CB2 /* Chatzilla-IOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE6F20692083E8E5005C3ADA /* Chatzilla-IOSTests */ = {
+		CE057D1620AA58C800373CB2 /* Chatzilla-IOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE6F20812083E8E5005C3ADA /* Build configuration list for PBXNativeTarget "Chatzilla-IOSTests" */;
+			buildConfigurationList = CE057D2E20AA58C800373CB2 /* Build configuration list for PBXNativeTarget "Chatzilla-IOSTests" */;
 			buildPhases = (
-				314D728B085B68045B3EC831 /* [CP] Check Pods Manifest.lock */,
-				CE6F20662083E8E5005C3ADA /* Sources */,
-				CE6F20672083E8E5005C3ADA /* Frameworks */,
-				CE6F20682083E8E5005C3ADA /* Resources */,
+				4EB1C630A932AD601938FF7F /* [CP] Check Pods Manifest.lock */,
+				CE057D1320AA58C800373CB2 /* Sources */,
+				CE057D1420AA58C800373CB2 /* Frameworks */,
+				CE057D1520AA58C800373CB2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE6F206C2083E8E5005C3ADA /* PBXTargetDependency */,
+				CE057D1920AA58C800373CB2 /* PBXTargetDependency */,
 			);
 			name = "Chatzilla-IOSTests";
 			productName = "Chatzilla-IOSTests";
-			productReference = CE6F206A2083E8E5005C3ADA /* Chatzilla-IOSTests.xctest */;
+			productReference = CE057D1720AA58C800373CB2 /* Chatzilla-IOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CE6F20742083E8E5005C3ADA /* Chatzilla-IOSUITests */ = {
+		CE057D2120AA58C800373CB2 /* Chatzilla-IOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE6F20842083E8E5005C3ADA /* Build configuration list for PBXNativeTarget "Chatzilla-IOSUITests" */;
+			buildConfigurationList = CE057D3120AA58C800373CB2 /* Build configuration list for PBXNativeTarget "Chatzilla-IOSUITests" */;
 			buildPhases = (
-				5F2D6673F09CFACB6BA68DB8 /* [CP] Check Pods Manifest.lock */,
-				CE6F20712083E8E5005C3ADA /* Sources */,
-				CE6F20722083E8E5005C3ADA /* Frameworks */,
-				CE6F20732083E8E5005C3ADA /* Resources */,
+				E9AD068B1D8BB3AB6FD7ED72 /* [CP] Check Pods Manifest.lock */,
+				CE057D1E20AA58C800373CB2 /* Sources */,
+				CE057D1F20AA58C800373CB2 /* Frameworks */,
+				CE057D2020AA58C800373CB2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE6F20772083E8E5005C3ADA /* PBXTargetDependency */,
+				CE057D2420AA58C800373CB2 /* PBXTargetDependency */,
 			);
 			name = "Chatzilla-IOSUITests";
 			productName = "Chatzilla-IOSUITests";
-			productReference = CE6F20752083E8E5005C3ADA /* Chatzilla-IOSUITests.xctest */;
+			productReference = CE057D2220AA58C800373CB2 /* Chatzilla-IOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE6F204E2083E8E1005C3ADA /* Project object */ = {
+		CE057CFB20AA58A900373CB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = user;
 				TargetAttributes = {
-					CE6F20552083E8E1005C3ADA = {
+					CE057D0220AA58AA00373CB2 = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					CE6F20692083E8E5005C3ADA = {
+					CE057D1620AA58C800373CB2 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = CE6F20552083E8E1005C3ADA;
+						TestTargetID = CE057D0220AA58AA00373CB2;
 					};
-					CE6F20742083E8E5005C3ADA = {
+					CE057D2120AA58C800373CB2 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = CE6F20552083E8E1005C3ADA;
+						TestTargetID = CE057D0220AA58AA00373CB2;
 					};
 				};
 			};
-			buildConfigurationList = CE6F20512083E8E1005C3ADA /* Build configuration list for PBXProject "Chatzilla-IOS" */;
+			buildConfigurationList = CE057CFE20AA58A900373CB2 /* Build configuration list for PBXProject "Chatzilla-IOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -270,37 +256,37 @@
 				en,
 				Base,
 			);
-			mainGroup = CE6F204D2083E8E1005C3ADA;
-			productRefGroup = CE6F20572083E8E1005C3ADA /* Products */;
+			mainGroup = CE057CFA20AA58A900373CB2;
+			productRefGroup = CE057D0420AA58AA00373CB2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE6F20552083E8E1005C3ADA /* Chatzilla-IOS */,
-				CE6F20692083E8E5005C3ADA /* Chatzilla-IOSTests */,
-				CE6F20742083E8E5005C3ADA /* Chatzilla-IOSUITests */,
+				CE057D0220AA58AA00373CB2 /* Chatzilla-IOS */,
+				CE057D1620AA58C800373CB2 /* Chatzilla-IOSTests */,
+				CE057D2120AA58C800373CB2 /* Chatzilla-IOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE6F20542083E8E1005C3ADA /* Resources */ = {
+		CE057D0120AA58AA00373CB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6F20642083E8E4005C3ADA /* LaunchScreen.storyboard in Resources */,
-				CE6F20902089862F005C3ADA /* Chatzilla-IOS in Resources */,
-				CE6F205F2083E8E1005C3ADA /* Main.storyboard in Resources */,
+				CE057D1120AA58C700373CB2 /* LaunchScreen.storyboard in Resources */,
+				CE057D0E20AA58C700373CB2 /* Assets.xcassets in Resources */,
+				CE057D0C20AA58AA00373CB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE6F20682083E8E5005C3ADA /* Resources */ = {
+		CE057D1520AA58C800373CB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE6F20732083E8E5005C3ADA /* Resources */ = {
+		CE057D2020AA58C800373CB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,7 +296,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		314D728B085B68045B3EC831 /* [CP] Check Pods Manifest.lock */ = {
+		2A98EF653C5776046541AEB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chatzilla-IOS/Pods-Chatzilla-IOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatzilla-IOS/Pods-Chatzilla-IOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB1C630A932AD601938FF7F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,33 +344,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3783668C0883E5F3BF9EA41E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Chatzilla-IOS/Pods-Chatzilla-IOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatzilla-IOS/Pods-Chatzilla-IOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		580DF97B87C465A5CBCB4050 /* [CP] Check Pods Manifest.lock */ = {
+		DEAB61344C28F0D58A6FBF39 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,7 +362,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5F2D6673F09CFACB6BA68DB8 /* [CP] Check Pods Manifest.lock */ = {
+		E9AD068B1D8BB3AB6FD7ED72 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,63 +383,59 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE6F20522083E8E1005C3ADA /* Sources */ = {
+		CE057CFF20AA58AA00373CB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6F205C2083E8E1005C3ADA /* ViewController.swift in Sources */,
-				CEDDD59720990BF50033D34D /* NewUser.swift in Sources */,
-				CE417C072091520C00294C27 /* MockMessage.swift in Sources */,
-				CE6F2094208CF95E005C3ADA /* ChatMessage.swift in Sources */,
-				CE6F205A2083E8E1005C3ADA /* AppDelegate.swift in Sources */,
-				CE6F208C2086E583005C3ADA /* Constants.swift in Sources */,
+				CE057D0920AA58AA00373CB2 /* ViewController.swift in Sources */,
+				CE057D0720AA58AA00373CB2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE6F20662083E8E5005C3ADA /* Sources */ = {
+		CE057D1320AA58C800373CB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6F206F2083E8E5005C3ADA /* Chatzilla_IOSTests.swift in Sources */,
+				CE057D1C20AA58C800373CB2 /* Chatzilla_IOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE6F20712083E8E5005C3ADA /* Sources */ = {
+		CE057D1E20AA58C800373CB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6F207A2083E8E5005C3ADA /* Chatzilla_IOSUITests.swift in Sources */,
+				CE057D2720AA58C800373CB2 /* Chatzilla_IOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE6F206C2083E8E5005C3ADA /* PBXTargetDependency */ = {
+		CE057D1920AA58C800373CB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE6F20552083E8E1005C3ADA /* Chatzilla-IOS */;
-			targetProxy = CE6F206B2083E8E5005C3ADA /* PBXContainerItemProxy */;
+			target = CE057D0220AA58AA00373CB2 /* Chatzilla-IOS */;
+			targetProxy = CE057D1820AA58C800373CB2 /* PBXContainerItemProxy */;
 		};
-		CE6F20772083E8E5005C3ADA /* PBXTargetDependency */ = {
+		CE057D2420AA58C800373CB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE6F20552083E8E1005C3ADA /* Chatzilla-IOS */;
-			targetProxy = CE6F20762083E8E5005C3ADA /* PBXContainerItemProxy */;
+			target = CE057D0220AA58AA00373CB2 /* Chatzilla-IOS */;
+			targetProxy = CE057D2320AA58C800373CB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE6F205D2083E8E1005C3ADA /* Main.storyboard */ = {
+		CE057D0A20AA58AA00373CB2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE6F205E2083E8E1005C3ADA /* Base */,
+				CE057D0B20AA58AA00373CB2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CE6F20622083E8E4005C3ADA /* LaunchScreen.storyboard */ = {
+		CE057D0F20AA58C700373CB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE6F20632083E8E4005C3ADA /* Base */,
+				CE057D1020AA58C700373CB2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -457,7 +443,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CE6F207C2083E8E5005C3ADA /* Debug */ = {
+		CE057D2920AA58C800373CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -517,7 +503,7 @@
 			};
 			name = Debug;
 		};
-		CE6F207D2083E8E5005C3ADA /* Release */ = {
+		CE057D2A20AA58C800373CB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -571,17 +557,14 @@
 			};
 			name = Release;
 		};
-		CE6F207F2083E8E5005C3ADA /* Debug */ = {
+		CE057D2C20AA58C800373CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A3CD12C742E79210CAA27BF /* Pods-Chatzilla-IOS.debug.xcconfig */;
+			baseConfigurationReference = 3BB44B773064AE9B33363E59 /* Pods-Chatzilla-IOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Chatzilla-IOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.Chatzilla-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -589,17 +572,14 @@
 			};
 			name = Debug;
 		};
-		CE6F20802083E8E5005C3ADA /* Release */ = {
+		CE057D2D20AA58C800373CB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBD6316132D71053C6DAF13E /* Pods-Chatzilla-IOS.release.xcconfig */;
+			baseConfigurationReference = F855D403F2701B385363E1CA /* Pods-Chatzilla-IOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Chatzilla-IOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.Chatzilla-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -607,19 +587,15 @@
 			};
 			name = Release;
 		};
-		CE6F20822083E8E5005C3ADA /* Debug */ = {
+		CE057D2F20AA58C800373CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1F21E2817CB2517BF9783F6 /* Pods-Chatzilla-IOSTests.debug.xcconfig */;
+			baseConfigurationReference = 6AD0C4C7F9D2C41E77A6023D /* Pods-Chatzilla-IOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Chatzilla-IOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.Chatzilla-IOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -628,19 +604,15 @@
 			};
 			name = Debug;
 		};
-		CE6F20832083E8E5005C3ADA /* Release */ = {
+		CE057D3020AA58C800373CB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AED537AFCD2281D2C6D5C72 /* Pods-Chatzilla-IOSTests.release.xcconfig */;
+			baseConfigurationReference = 9740EA46ECE27E064FEDAB7D /* Pods-Chatzilla-IOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Chatzilla-IOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.Chatzilla-IOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -649,18 +621,14 @@
 			};
 			name = Release;
 		};
-		CE6F20852083E8E5005C3ADA /* Debug */ = {
+		CE057D3220AA58C800373CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00B221592378B92459AE5751 /* Pods-Chatzilla-IOSUITests.debug.xcconfig */;
+			baseConfigurationReference = 14C7DE17184AA3EB159A216C /* Pods-Chatzilla-IOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Chatzilla-IOSUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.Chatzilla-IOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -669,18 +637,14 @@
 			};
 			name = Debug;
 		};
-		CE6F20862083E8E5005C3ADA /* Release */ = {
+		CE057D3320AA58C800373CB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 888B460E9221CB48E42C6C36 /* Pods-Chatzilla-IOSUITests.release.xcconfig */;
+			baseConfigurationReference = 82FB14BB3C6887B0857D8ADF /* Pods-Chatzilla-IOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Chatzilla-IOSUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.Chatzilla-IOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -692,43 +656,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE6F20512083E8E1005C3ADA /* Build configuration list for PBXProject "Chatzilla-IOS" */ = {
+		CE057CFE20AA58A900373CB2 /* Build configuration list for PBXProject "Chatzilla-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE6F207C2083E8E5005C3ADA /* Debug */,
-				CE6F207D2083E8E5005C3ADA /* Release */,
+				CE057D2920AA58C800373CB2 /* Debug */,
+				CE057D2A20AA58C800373CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE6F207E2083E8E5005C3ADA /* Build configuration list for PBXNativeTarget "Chatzilla-IOS" */ = {
+		CE057D2B20AA58C800373CB2 /* Build configuration list for PBXNativeTarget "Chatzilla-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE6F207F2083E8E5005C3ADA /* Debug */,
-				CE6F20802083E8E5005C3ADA /* Release */,
+				CE057D2C20AA58C800373CB2 /* Debug */,
+				CE057D2D20AA58C800373CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE6F20812083E8E5005C3ADA /* Build configuration list for PBXNativeTarget "Chatzilla-IOSTests" */ = {
+		CE057D2E20AA58C800373CB2 /* Build configuration list for PBXNativeTarget "Chatzilla-IOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE6F20822083E8E5005C3ADA /* Debug */,
-				CE6F20832083E8E5005C3ADA /* Release */,
+				CE057D2F20AA58C800373CB2 /* Debug */,
+				CE057D3020AA58C800373CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE6F20842083E8E5005C3ADA /* Build configuration list for PBXNativeTarget "Chatzilla-IOSUITests" */ = {
+		CE057D3120AA58C800373CB2 /* Build configuration list for PBXNativeTarget "Chatzilla-IOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE6F20852083E8E5005C3ADA /* Debug */,
-				CE6F20862083E8E5005C3ADA /* Release */,
+				CE057D3220AA58C800373CB2 /* Debug */,
+				CE057D3320AA58C800373CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CE6F204E2083E8E1005C3ADA /* Project object */;
+	rootObject = CE057CFB20AA58A900373CB2 /* Project object */;
 }
