@@ -16,6 +16,11 @@
 		CE057D1120AA58C700373CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE057D0F20AA58C700373CB2 /* LaunchScreen.storyboard */; };
 		CE057D1C20AA58C800373CB2 /* Chatzilla_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057D1B20AA58C800373CB2 /* Chatzilla_IOSTests.swift */; };
 		CE057D2720AA58C800373CB2 /* Chatzilla_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057D2620AA58C800373CB2 /* Chatzilla_IOSUITests.swift */; };
+		CE057D3520ABBDFC00373CB2 /* MockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057D3420ABBDFB00373CB2 /* MockMessage.swift */; };
+		CE057D3720ABBE3100373CB2 /* NewUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057D3620ABBE3000373CB2 /* NewUser.swift */; };
+		CE057D3920ABBE7100373CB2 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057D3820ABBE7100373CB2 /* ChatMessage.swift */; };
+		CE057D3C20ABBE7F00373CB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057D3A20ABBE7E00373CB2 /* Constants.swift */; };
+		CE057D3D20ABBE7F00373CB2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE057D3B20ABBE7E00373CB2 /* GoogleService-Info.plist */; };
 		D2715A69BF81563B1C5227A0 /* Pods_Chatzilla_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80491A2028BF2978B6A25401 /* Pods_Chatzilla_IOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +62,11 @@
 		CE057D2220AA58C800373CB2 /* Chatzilla-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chatzilla-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE057D2620AA58C800373CB2 /* Chatzilla_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatzilla_IOSUITests.swift; sourceTree = "<group>"; };
 		CE057D2820AA58C800373CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE057D3420ABBDFB00373CB2 /* MockMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockMessage.swift; sourceTree = "<group>"; };
+		CE057D3620ABBE3000373CB2 /* NewUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUser.swift; sourceTree = "<group>"; };
+		CE057D3820ABBE7100373CB2 /* ChatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		CE057D3A20ABBE7E00373CB2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE057D3B20ABBE7E00373CB2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F1EEC1ECFF580DF014E8DDFD /* Pods_Chatzilla_IOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatzilla_IOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F855D403F2701B385363E1CA /* Pods-Chatzilla-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatzilla-IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatzilla-IOS/Pods-Chatzilla-IOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +124,11 @@
 		CE057D0520AA58AA00373CB2 /* Chatzilla-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				CE057D3A20ABBE7E00373CB2 /* Constants.swift */,
+				CE057D3B20ABBE7E00373CB2 /* GoogleService-Info.plist */,
+				CE057D3820ABBE7100373CB2 /* ChatMessage.swift */,
+				CE057D3620ABBE3000373CB2 /* NewUser.swift */,
+				CE057D3420ABBDFB00373CB2 /* MockMessage.swift */,
 				CE057D0620AA58AA00373CB2 /* AppDelegate.swift */,
 				CE057D0820AA58AA00373CB2 /* ViewController.swift */,
 				CE057D0A20AA58AA00373CB2 /* Main.storyboard */,
@@ -274,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE057D1120AA58C700373CB2 /* LaunchScreen.storyboard in Resources */,
+				CE057D3D20ABBE7F00373CB2 /* GoogleService-Info.plist in Resources */,
 				CE057D0E20AA58C700373CB2 /* Assets.xcassets in Resources */,
 				CE057D0C20AA58AA00373CB2 /* Main.storyboard in Resources */,
 			);
@@ -387,8 +403,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE057D3520ABBDFC00373CB2 /* MockMessage.swift in Sources */,
+				CE057D3720ABBE3100373CB2 /* NewUser.swift in Sources */,
 				CE057D0920AA58AA00373CB2 /* ViewController.swift in Sources */,
+				CE057D3920ABBE7100373CB2 /* ChatMessage.swift in Sources */,
 				CE057D0720AA58AA00373CB2 /* AppDelegate.swift in Sources */,
+				CE057D3C20ABBE7F00373CB2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,9 +582,15 @@
 			baseConfigurationReference = 3BB44B773064AE9B33363E59 /* Pods-Chatzilla-IOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Chatzilla-IOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.Chatzilla-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -577,9 +603,15 @@
 			baseConfigurationReference = F855D403F2701B385363E1CA /* Pods-Chatzilla-IOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Chatzilla-IOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.Chatzilla-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -595,7 +627,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Chatzilla-IOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.Chatzilla-IOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -612,7 +648,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Chatzilla-IOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.Chatzilla-IOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -628,7 +668,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Chatzilla-IOSUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.Chatzilla-IOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -644,7 +688,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Chatzilla-IOSUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.Chatzilla-IOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -663,7 +711,7 @@
 				CE057D2A20AA58C800373CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CE057D2B20AA58C800373CB2 /* Build configuration list for PBXNativeTarget "Chatzilla-IOS" */ = {
 			isa = XCConfigurationList;
@@ -672,7 +720,7 @@
 				CE057D2D20AA58C800373CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CE057D2E20AA58C800373CB2 /* Build configuration list for PBXNativeTarget "Chatzilla-IOSTests" */ = {
 			isa = XCConfigurationList;
@@ -681,7 +729,7 @@
 				CE057D3020AA58C800373CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CE057D3120AA58C800373CB2 /* Build configuration list for PBXNativeTarget "Chatzilla-IOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -690,7 +738,7 @@
 				CE057D3320AA58C800373CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
